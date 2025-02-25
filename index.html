@@ -346,6 +346,11 @@ config = {
 </head>
 
 <body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/brython/3.10.4/brython.min.js"></script>
+<body onload="brython()">
+    <script type="text/python">
+        print("Hello from Python in the browser!")
+    </script>
 
     <div id="transfer" align=center>
 <!--        <div class="spinner" id='spinner'></div> -->
